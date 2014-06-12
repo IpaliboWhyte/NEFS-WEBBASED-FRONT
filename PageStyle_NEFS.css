@@ -44,10 +44,9 @@ html, body {
 .Category_Menu_Container{
     margin: 0 auto;
     position: relative;
-    height: 50px;
+    height: 80px;
     width:  600px;
     top: 300px;
-    /*background-color: #2980b9;*/
 }
 
 .menu_Items{
@@ -109,3 +108,82 @@ span input[type="text"]:focus {
     padding-top: 10px;
     padding-left: 70px;
 }
+
+.manage_Data_bt{
+text-decoration: none;
+position: absolute;
+top: 70%;
+left: 44%;
+width: 140px;
+height: 35px;
+background-color: #d35400;
+font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+table{
+margin: 0 auto; 
+}
+
+th{
+    background: #27ae60;
+    color: white;
+    font-size: 15px;
+    border:none;
+}
+
+td{
+    font-size: 15px;
+    height: 30px;
+    border: 1px solid #2c3e50;
+    border-collapse:collapse;
+    color: #bdc3c7;
+}
+
+th,td
+{
+padding:5px;
+}
+
+table,th,td{
+    border-collapse:collapse;
+}
+
+.categories_Cell{
+    background-color: #2c3e50; 
+}
+
+.table_Link{
+    font-size: 11px;
+}
+
+.edit_Row_bt{
+    color: #bdc3c7;
+}
+
+.catergories_Table{
+    border: none;
+}
+
+input{border:none; border-radius:4px; -moz-border-radius:4px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
