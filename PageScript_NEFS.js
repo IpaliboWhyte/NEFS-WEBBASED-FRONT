@@ -31,8 +31,9 @@ data.d = [{Category: 'Events', Created: 'Wednesday December 2014, 02:27', Last_e
     });
 */
 
-
-
+$(document).ready(function () {
+    $('div.hidden').fadeIn(1000).removeClass('hidden');
+});
 
 
 
