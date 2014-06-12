@@ -14,12 +14,7 @@ function toggleDivs() {
     }
 
 }
-$( document ).ready(function() {
-    $('.menu_Items').bind("click", function() {
-        alert("Got here");
-});
 
-$("button").bind("click", function() {
+$(document).on("click", ".menu_Items", function() {
     toggleDivs();
 });
- });   
