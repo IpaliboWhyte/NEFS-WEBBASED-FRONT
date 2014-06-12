@@ -97,10 +97,10 @@ span input[type="text"]:focus {
 .navBar_Item_Logo{
     position: relative;
     padding-right: 40px;
-    padding-top: 10px;
+    padding-top: 5px;
     float: right;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .navBar_Item_Description{
